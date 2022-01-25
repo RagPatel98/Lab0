@@ -1,0 +1,56 @@
+h1 { /* creating a header stylesheet called h1 */
+    text-align: center; /*centeting the text */
+    font-family: "Times New Roman"; /*having times new roman as font */
+    color: #e3d65d; /*having this blue colour */
+    text-decoration: underline; /*having an underline below the text*/
+    padding: 10px; /*creating a 10 pixel panning around the whole text */
+}
+
+h2 { /* creating a header stylesheet called h1 */
+    text-align: center; /*centeting the text */
+    font-family: "Times New Roman"; /*having times new roman as font */
+    color: #e3d65d; /*having this blue colour */
+    padding: 10px; /*creating a 10 pixel panning around the whole text */
+}
+
+table.center { /* creating a table at the center and adding color to it */
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e3d65d;
+}
+
+tr:hover { /*making the background of the table row different when you hover over it */
+    background-color: lightgray;
+}
+
+
+th,td { /*aligning table header and td to the center, adding a color to the border, giving it a font, and padding*/
+    text-align: center;
+    border-bottom: 10px #cfcfcf;
+    font-family: "Times New Roman";
+    padding: 10px;
+    color: #f7f7f7
+}
+
+body { /* adding color to the body of my webpage */
+    background-color: #33475b;
+}
+
+div { /* created padding for div */
+    padding: 10px;
+}
+
+.black { /* created a class called black */
+    background-color: black;
+    color: white;
+}
+
+.white{ /* created a class called white */
+    background-color: white;
+    color: black;
+}
+
+#blackP { /* created a id called blackP */
+    color: black;
+}

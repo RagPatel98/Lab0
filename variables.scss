@@ -1,0 +1,13 @@
+table { /* created a nested SCSS selector */
+    font-size: 20 px;
+
+    p {
+        color : burlywood;
+    }
+
+    th, td {
+        color: green;
+    }
+}
+
+
